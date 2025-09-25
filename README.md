@@ -1,20 +1,9 @@
-# ATMS-523-Module-2
+# ATMS-523-Module-2  Alexa Taylor
 
+Module Homework #2 for ATMS 523. In this homwork I examined the total preciptation data for Sapporo, Japan and Orono, Maine. It will generate a plot of cumulative distribution function of all values daily precipitation values in Sapporo Maine. Along with showing two maps, one being composite mean precipitation on the 95% days identified in Orono Maine compared with an anomaly of precipitation map from the 1981-2010 mean.
+
+## Installation
 Install required libraries using the `environment.yml` file.  `mamba install environment.yml` then mamba activate `xarray-climate`.
 
-The Homework assignment can be completed in a new jupyter notebook that you commit to this repository.
-
-The examples from lecture 3 and 4 are here also.
-
-Make sure you install software as we did in the check in:
-   ```bash
-   mamba env create --prefix $HOME/envs/xarray-climate -f environment.yml
-   mamba activate $HOME/envs/xarray-climate
-   ```
-   or with pip:
-   ```bash
-   python -m venv .venv && source .venv/bin/activate
-   pip install -r requirements.txt
-   ```
-
-   and use this environment when running the codes and for your homework.
+## License
+This project is licensed under the [MIT License](LICENSE).
